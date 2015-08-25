@@ -1,0 +1,36 @@
+<template name="navigation">
+<!-- Navigation & Logo-->
+<div class="mainmenu-wrapper">
+  <div class="container">
+    <nav id="mainmenu" class="mainmenu">
+      <ul>
+        <li class="logo-wrapper">
+          <a href="/"><img src="/mPurpose-logo.png" alt="logo.png"></a>
+        </li>
+        <li class="{{activeLink 'doma'}}">
+          <a href="/">Дома</a>
+        </li>
+        <li class="{{activeLink 'zaOrganizacijata'}}">
+          <a href="/za-organizacijata">За организацијата</a>
+        </li>
+        <li class="{{activeLink 'zaProektot'}}">
+          <a href="/za-proektot">За проектот</a>
+        </li>
+        <li class="{{activeLink 'materijali'}}">
+          <a href="/materijali">Материјали</a>
+        </li>
+        <li class="{{activeLink 'aktivnosti'}}">
+          <a href="/aktivnosti">Активности</a>
+        </li>
+        <li class="{{activeLink 'galerija'}}">
+          <a href="/galerija">Галерија</a>
+        </li>
+        <li class="{{activeLink 'kontakt'}}">
+          <a href="/kontakt">Контакт</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+</template>
+
